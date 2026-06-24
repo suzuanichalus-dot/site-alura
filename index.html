@@ -1,39 +1,109 @@
-<!DOCTYPE html><html lang="pt-br">
-<head>  
-    <meta charset="UTF-8"> 
-    <title>Exemplo</title>  
-    <style>   
-        .header { background-color: #333; color: rgb(255, 254, 254); padding: 10px; }  
-        .footer { background-color: #333; color: white; padding: 5px; } 
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal</title>
+    <style>
+        /* Estilos do Site (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
-    <body>  
-        <div class="header">   
-            <h1>Bem-vindo</h1>  
-        </div>  
-        <div class="footer">  
-            <p>© 2025</p>  
+<body>
+
+    <!-- Cabeçalho do Site -->
+    <header>
+        <h1>Olá, eu sou [Seu Nome]</h1>
+        <p>Desenvolvedor e Criador de Conteúdo</p>
+    </header>
+
+    <!-- Corpo / Conteúdo do Site -->
+    <div class="container">
+        
+        <div class="card">
+            <h2>Sobre Mim</h2>
+            <p>Sou apaixonado por tecnologia, web design e novas soluções digitais. Estou sempre buscando aprender e criar projetos inovadores.</p>
         </div>
-    </body>
-</html>`
-</html>`
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- body {
-  background-color: black;
-  color: white;
-  font-family: 'Comic Sans MS', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-<h1>Formação de <span>Front-end</span></h1>
-h1{
-            font-weight: bold;
-}
- 
-span{
-            color: #22D4FD;
-            border: 1px solid #22D4FD;
-            padding: 10px;
-}
+
+        <div class="card">
+            <h2>Meus Projetos</h2>
+            <p>Veja alguns dos trabalhos que já desenvolvi e como posso ajudar a tirar suas ideias do papel.</p>
+            <a href="#" class="btn">Ver Portfólio</a>
+        </div>
+
+        <div class="card">
+            <h2>Contato</h2>
+            <p>Vamos conversar sobre o seu próximo projeto? Envie-me uma mensagem.</p>
+            <a href="mailto:seu-email@exemplo.com" class="btn">Entre em Contato</a>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
